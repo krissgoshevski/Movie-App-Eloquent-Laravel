@@ -1,0 +1,42 @@
+/* Основен стил на табелата */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Стил за заглавните редици на табелата */
+.table th {
+    background-color: #333;
+    /* Боја на позадината */
+    color: #fff;
+    /* Боја на текстот */
+    text-align: left;
+    /* Лева-десна наредба на текстот */
+    padding: 10px;
+    /* Поставете го потребниот padding */
+}
+
+/* Стил за редиците со податоци во табелата */
+.table td {
+    border: 1px solid #ddd;
+    /* Граница околу ќелиите */
+    padding: 10px;
+    /* Поставете го потребниот padding */
+}
+
+/* Стил за линкот на насловот (Title) */
+.movie-link {
+    color: #007bff;
+    /* Боја на линкот */
+    text-decoration: none;
+    /* Нема подчертвано */
+    font-weight: bold;
+    /* Дебелина на текстот */
+}
+
+.movie-link:hover {
+    text-decoration: underline;
+    /* Подчертан текст при hover состојба */
+    color: #0056b3;
+    /* Боја на линкот при hover состојба */
+}

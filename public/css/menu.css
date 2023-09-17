@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(231, 211, 175, 0.738);
+    padding: 2rem;
+    width: 100vw;
+
+    h1 {
+        a {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            color: orangered;
+            text-decoration: none;
+        }
+    }
+
+    .nav {
+        display: flex;
+        list-style: none;
+        gap: 1.5rem;
+        align-items: center;
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            font-size: 1.7rem;
+            color: #333;
+            transition: all 0.3s ease;
+            display: block;
+        }
+
+        a:hover,
+        a:active {
+            color: orangered;
+            transform: translateY(-5px);
+        }
+    }
+}
