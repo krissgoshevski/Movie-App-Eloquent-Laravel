@@ -1,3 +1,44 @@
+
+This is Movie Application with the next functionalities:
+
+SKILLS: Laravel, CSS, HTML/Blade, Mysql, Javascript jQuery and Ajax.
+
+We have the following tables with relationships:
+● Movies - title, start_date, end_date, length, year, description, rating_id, type_id
+● Genres - name of the genre
+● Actors - name, surname, birth_date
+● Directors - name, surname, birth_date
+● Ratings - type of rating (G, PG, PG-13, R, NC-17)
+● Images - url, movie_id
+● Types - movie type (2D,3D)
+● Movie_genres - pivot table between movies and genres
+● Movie_actors - pivot table between movies and actors
+● Movie_directors - pivot table between movies and directors
+
+
+ - migrations
+ - controllers
+ - Custom Requests
+ - Seeders and Faker
+ - i use seeder for Actors, Directors, Genres, Ratings and Movie types with Faker
+ - a form for adding a new movie. Each movie can have 2 image urls, multiple actors,
+    genres and directors with (checkboxes) for choosing, select area etc...
+   
+   - Create page for reating new Movie 
+   - Index page for list of all movies stored in the DB
+   - Show page for showing all the informations about the movies
+
+   - API search route for searching the movies by Title -> this is made with REST-API with jquery and Ajax
+
+
+
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
